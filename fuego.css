@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  color: white;
+  background: #333;
+  overflow: hidden;
+
+}
+
+.landing{
+  position: relative;
+  background-image: url(img/fuegocover.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.landing-inner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  padding-top: 50px;
+}
+
+#logo{
+  border: 2px solid white;
+
+  margin-bottom: 50px;
+
+}
+
+.container{
+width: 600px;
+justify-content: center;
+}
+
+
+
+.fuego{
+  color: #e22822;
+}
+.leon{
+  color: #e25822;
+}
+.landing .logo{
+  font-size: 150px;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+
+}
+.landing .comming-soon{
+  font-size: 80px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+
+  font-family: 'Fredericka the Great', cursive;
+  margin-bottom: 25px;
+
+}
+
+.landing h3{
+  font-family: 'Josefin Slab', serif;
+  margin-top: -30px;
+  font-size: 40px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.countdown {
+  font-size: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.countdown div{
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  opacity: .5;
+  width: 200px;
+}
+
+.countdown div:first-child {
+  background: #e22822;
+}
+
+.countdown div:nth-child(n+2){
+  background: #e25822;
+}
+
+.countdown span{
+  display: block;
+  font-size: 25px
+}
+
+
+@media(max-width: 650px){
+
+  .container{
+    width: 100%;
+  }
+
+  #logo{
+    border: none;
+    margin-bottom: 50px;
+    text-align: center;
+
+  }
+  .landing .logo{
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  .landing .comming-soon{
+    font-size: 40px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+
+    font-family: 'Fredericka the Great', cursive;
+
+  }
+
+  .landing h3{
+    font-family: 'Josefin Slab', serif;
+    margin-top: -20px;
+    font-size: 30px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  }
+
+  .countdown {
+    font-size: 15px;
+
+
+  }
+
+  .countdown span{
+    display: block;
+    font-size: 15px
+  }
+
+
+  .countdown div {
+    display: block;
+    width: 25%;
+
+  }
+
+
+}
+@media (max-height: 600px ) {
+
+}
