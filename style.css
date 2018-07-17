@@ -18,6 +18,7 @@ nav ul li a{
   padding: 5px 20px;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
+ 
   
 }
 nav ul li a:hover{
@@ -107,7 +108,7 @@ section.sec1{
 }
 
 .color{
-  line-height: 80px;
+  line-height: 40px;
   color: black;
   font-size: 25px;
   padding: 5px 20px;
@@ -126,7 +127,7 @@ section.sec1{
 
 @media (max-width: 800px) {
   .sec2 h1, .sec3 h1, .sec4 h1{
-    font-size: 40px;
+    font-size: 35px;
   }
   .sec1 h1{
     font-size:40px;
@@ -162,6 +163,12 @@ section.sec1{
   }
   .grey{
     font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo{
+    width: 320px;
   }
 }
 
@@ -337,4 +344,16 @@ section.sec1{
     width: 100%;
     min-width: 350px;
   }
+
+  .tab .content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .tab .content p {
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+    padding-right: 30px;
+  }
+
 }
