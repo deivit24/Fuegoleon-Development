@@ -166,12 +166,73 @@ section.sec1{
   }
 }
 
+.button {
+  text-align: center;
+}
+ .btn {
+   font-family: 'Roboto';
+   font-weight: bold;
+   color: white;
+   border: 1px solid white;
+
+}
+
+.btn:hover{
+  color:black;
+  background: white;
+  border: 1px solid white;
+
+}
+
 @media (max-width: 500px) {
   .logo{
     width: 320px;
   }
+  .sec1 h1{
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    padding-top: 300px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+  
+  }
+}
+/* ===== Test Websites==== */
+
+#test-body{
+  width: 100%;
+  
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(img/textcover.jpg);
+  
+  
+  background-size: cover ;
+  background-position: center ;
 }
 
+#test-main{
+  margin-top:400px;
+  
+}
+#test-main .container{
+  text-align: center;
+}
+#test-main .container h1{
+  color: white;
+  font-family: 'Merriweather';
+  margin-bottom: 25px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
 /* ===== Social Media===== */
 
 
