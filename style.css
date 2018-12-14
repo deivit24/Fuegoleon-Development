@@ -2,6 +2,7 @@ nav {
   text-align: center;
   background: transparent;
 }
+
 .logo {
   width: 600px;
   margin-bottom: 20px;
@@ -16,6 +17,7 @@ nav ul li a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
+
 nav ul li a:hover {
   color: #f00;
   font-weight: bold;
@@ -44,10 +46,12 @@ section.sec1 {
 .sec1 span {
   color: red;
 }
+
 .sec2 {
   background: #eeeeee;
   padding: 100px 0px;
 }
+
 .sec2 h1,
 .sec3 h1,
 .sec4 h1 {
@@ -64,11 +68,13 @@ section.sec1 {
   margin-top: 20px;
   font-size: 25px;
 }
+
 .sec3 {
   background: white;
   padding: 100px 0px;
   text-align: center;
 }
+
 .sec3 img {
   margin-top: 25px;
   width: 300px;
@@ -80,6 +86,7 @@ section.sec1 {
   background: #333333;
   padding: 100px 0px;
 }
+
 .white {
   color: white;
 }
@@ -87,11 +94,13 @@ section.sec1 {
 .green {
   color: green;
 }
+
 .david {
   font-family: 'Roboto', sans-serif;
   color: grey;
   font-size: 30px;
 }
+
 .grey {
   font-family: 'Roboto', sans-serif;
   color: grey;
@@ -113,17 +122,20 @@ section.sec1 {
   text-decoration: none;
   transition: 0.5s;
 }
+
 .remove {
   width: 0px;
-  transition: 5s;
+  transition: 0.5s;
 }
 
 @media (max-width: 800px) {
+
   .sec2 h1,
   .sec3 h1,
   .sec4 h1 {
     font-size: 35px;
   }
+
   .sec1 h1 {
     font-size: 40px;
   }
@@ -156,6 +168,7 @@ section.sec1 {
   .logo {
     width: 400px;
   }
+
   .grey {
     font-size: 15px;
   }
@@ -164,6 +177,7 @@ section.sec1 {
 .button {
   text-align: center;
 }
+
 .btn {
   font-family: 'Roboto';
   font-weight: bold;
@@ -181,6 +195,7 @@ section.sec1 {
   .logo {
     width: 320px;
   }
+
   .sec1 h1 {
     color: white;
     text-align: center;
@@ -191,6 +206,7 @@ section.sec1 {
       0px 18px 23px rgba(0, 0, 0, 0.1);
   }
 }
+
 /* ===== Test Websites==== */
 
 #test-body {
@@ -206,9 +222,11 @@ section.sec1 {
 #test-main {
   margin-top: 400px;
 }
+
 #test-main .container {
   text-align: center;
 }
+
 #test-main .container h1 {
   color: white;
   font-family: 'Merriweather';
@@ -218,19 +236,21 @@ section.sec1 {
 }
 
 .card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
 }
+
 /* ===== Social Media===== */
 
 @font-face {
   font-family: 'Genericons';
   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot');
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff')
-      format('woff'),
-    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot')
-      format('truetype');
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff') format('woff'),
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot') format('truetype');
 }
 
 .accordion {
@@ -314,6 +334,7 @@ section.sec1 {
 .mail a:after {
   content: '\f410';
 }
+
 .mail a:after {
   background-color: #0072c6;
 }
@@ -322,6 +343,7 @@ section.sec1 {
 .phone a:after {
   content: '\f437';
 }
+
 .phone a:after {
   background-color: #ffe100;
 }
@@ -330,6 +352,7 @@ section.sec1 {
 .facebook a:after {
   content: '\f204';
 }
+
 .facebook a:after {
   background-color: #3b5998;
 }
@@ -338,6 +361,7 @@ section.sec1 {
 .linkedin a:after {
   content: '\f208';
 }
+
 .linkedin a:after {
   background-color: #00a9cd;
 }
@@ -346,6 +370,7 @@ section.sec1 {
 .instagram a:after {
   content: '\f215';
 }
+
 .instagram a:after {
   background-color: #6dc993;
 }
@@ -354,6 +379,7 @@ section.sec1 {
 .github a:after {
   content: '\f200';
 }
+
 .github a:after {
   background-color: #6e5494;
 }
@@ -362,6 +388,7 @@ section.sec1 {
   background: white;
   padding: 50px;
 }
+
 @media (max-width: 950px) {
   .container {
     width: 70%;
