@@ -227,19 +227,19 @@ hr {
 =            CONTACT            =
 =============================== */
 ::placeholder {
-  color: #c8a4ff;
+  color: white;
 }
 
 ::-webkit-input-placeholder {
-  color: #c8a4ff;
+  color: white;
 }
 
 ::-moz-placeholder {
-  color: #c8a4ff;
+  color: white;
 }
 
 :-ms-input-placeholder {
-  color: #c8a4ff;
+  color: white;
 }
 
 #contact {
@@ -496,13 +496,13 @@ hr {
 }
 
 #contact .input-wrap.submit input {
-  background: #ff3535;
+  background: #ffda35;
   outline: none !important;
   border: none !important;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  color: #fff;
+  color: black;
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 0.05em;
@@ -748,7 +748,7 @@ hr {
   nav ul li a {
     line-height: 40px;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
 
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -757,7 +757,7 @@ hr {
   .color {
     line-height: 40px;
     color: black;
-    font-size: 12px;
+    font-size: 15px;
     padding: 5px 10px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -839,16 +839,23 @@ hr {
     font-size: 20px !important;
     margin-top: -30px;
     margin-bottom: 25px;
+    text-align: center;
+  }
+
+  #contact h2 {
+    text-align: center;
   }
 
   #contact .chat {
     font-size: 150px !important;
     margin-bottom: -50px;
+    text-align: center;
   }
 
   #contact .lets {
     font-size: 120px !important;
     margin-bottom: -50px;
+    text-align: left !important;
   }
 
   #contact .input-wrap.checkbox label {
