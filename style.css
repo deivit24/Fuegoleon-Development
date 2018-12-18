@@ -88,8 +88,6 @@ section.sec1 {
   text-align: center;
 }
 
-
-
 .white {
   color: white;
 }
@@ -131,7 +129,6 @@ section.sec1 {
   transition: 0.5s;
 }
 
-
 /* new logo */
 
 #fuego {
@@ -169,99 +166,102 @@ hr {
   margin: 0px;
   background: #ff3535;
   /* Old browsers */
-  background: -moz-linear-gradient(left,
+  background: -moz-linear-gradient(
+    left,
     #ff3535 0%,
     #ffb22d 19%,
     #f7df00 37%,
     #ff3535 56%,
     #ffb22d 76%,
-    #f7df00 100%);
+    #f7df00 100%
+  );
   /* FF3.6+ */
-  background: -webkit-gradient (linear,
-    left top,
-    right top,
-    color-stop(0%, #ff3535),
-    color-stop(19%, #ffb22d),
-    color-stop(37%, #f7df00),
-    color-stop(56%, #ff3535),
-    color-stop(76%, #ffb22d),
-    color-stop(100%, #f7df00));
+  background: -webkit-gradient
+    (
+      linear,
+      left top,
+      right top,
+      color-stop(0%, #ff3535),
+      color-stop(19%, #ffb22d),
+      color-stop(37%, #f7df00),
+      color-stop(56%, #ff3535),
+      color-stop(76%, #ffb22d),
+      color-stop(100%, #f7df00)
+    );
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,
+  background: -webkit-linear-gradient(
+    left,
     #ff3535 0%,
     #ffb22d 19%,
     #f7df00 37%,
     #ff3535 56%,
     #ffb22d 76%,
-    #f7df00 100%);
+    #f7df00 100%
+  );
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,
+  background: -o-linear-gradient(
+    left,
     #ff3535 0%,
     #ffb22d 19%,
     #f7df00 37%,
     #ff3535 56%,
     #ffb22d 76%,
-    #f7df00 100%);
+    #f7df00 100%
+  );
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,
+  background: -ms-linear-gradient(
+    left,
     #ff3535 0%,
     #ffb22d 19%,
     #f7df00 37%,
     #ff3535 56%,
     #ffb22d 76%,
-    #f7df00 100%);
+    #f7df00 100%
+  );
   /* IE10+ */
-  background: linear-gradient(to right,
+  background: linear-gradient(
+    to right,
     #ff3535 0%,
     #ffb22d 19%,
     #f7df00 37%,
     #ff3535 56%,
     #ffb22d 76%,
-    #f7df00 100%);
+    #f7df00 100%
+  );
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3535', endColorstr='#f7df00', GradientType=1);
   /* IE6-9 */
 }
-
 /* ===============================
 =            CONTACT            =
 =============================== */
 ::placeholder {
-  color: white;
+  color: #333;
 }
-
 ::-webkit-input-placeholder {
-  color: white;
+  color: #333;
 }
-
 ::-moz-placeholder {
-  color: white;
+  color: #333;
 }
-
 :-ms-input-placeholder {
-  color: white;
+  color: #333;
 }
-
 #contact {
-  background: #ff3535;
-  background-image: -webkit-linear-gradient(35deg, #ff3535, #ffb22d);
-  background-image: linear-gradient(35deg, #ff3535, #ffb22d);
+  background: #333;
+  background-image: -webkit-linear-gradient(35deg, #000, #333);
+  background-image: linear-gradient(35deg, #000, #333);
   padding: 200px 0 200px;
   height: 100%;
 }
-
-
-
 #contact.success:before {
   opacity: 1;
 }
-
 #contact .contact-form {
   text-align: right;
   position: relative;
   z-index: 1;
 }
-
 #contact canvas {
   position: absolute;
   top: 0;
@@ -269,26 +269,21 @@ hr {
   opacity: 0.5;
   z-index: 0;
 }
-
 .hide-those-particles #contact canvas {
   display: none !important;
 }
-
 #contact .input-wrap {
   position: relative;
   height: 60px;
   margin-bottom: 10px;
 }
-
 #contact .input-wrap.textarea {
   height: 300px;
 }
-
 #contact .select-wrap {
   position: relative;
   z-index: 999999;
 }
-
 #contact .input-wrap input,
 #contact .input-wrap select {
   -webkit-box-shadow: none !important;
@@ -308,11 +303,10 @@ hr {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.03em;
-  color: #fff;
-  background: #ff3535;
+  color: #333;
+  background: #fff;
   z-index: 9999999;
 }
-
 #contact .input-wrap textarea {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
@@ -328,34 +322,30 @@ hr {
   padding: 7px;
   height: 300px;
   font-weight: 300;
-  background: #ff3535;
+  background: #fff;
   -webkit-transition: all 225ms ease;
   -moz-transition: all 225ms ease;
   transition: all 225ms ease;
-  color: #fff;
+  color: #333;
   font-size: 20px;
   letter-spacing: 0.06em;
   line-height: 29px;
   resize: none;
   z-index: 9999;
 }
-
 #contact .input-wrap svg {
   position: absolute;
   top: -9px;
   left: 0;
   height: 78px;
 }
-
 #contact .input-wrap.textarea svg {
   height: 410px;
   top: -54px;
 }
-
 #contact .input-wrap.checkbox {
   margin-top: 35px;
 }
-
 #contact .input-wrap.checkbox input {
   width: 35px;
   height: 35px;
@@ -365,14 +355,12 @@ hr {
   left: auto;
   opacity: 0;
 }
-
 #contact .input-wrap.checkbox svg {
   width: 45px;
   height: 55px;
   left: auto;
   right: 19px;
 }
-
 #contact .input-wrap.checkbox label {
   padding-right: 53px;
   color: #fff;
@@ -390,7 +378,6 @@ hr {
   -ms-user-select: none;
   user-select: none;
 }
-
 #contact .input-wrap.checkbox i {
   color: rgb(180, 255, 180);
   font-size: 30px;
@@ -409,27 +396,22 @@ hr {
   -o-transform: rotate(0);
   transform: rotate(0);
 }
-
 #contact .input-wrap.checkbox i.ti-control-stop {
   opacity: 0;
   font-size: 32px;
 }
-
 #contact .input-wrap svg path {
   fill: white;
   -webkit-transition: all 225ms ease;
   -moz-transition: all 225ms ease;
   transition: all 225ms ease;
 }
-
 #contact .input-wrap.checkbox.nopeee svg path {
   fill: #fff;
 }
-
 #contact .input-wrap.checkbox.nopeee i {
   color: rgb(255, 120, 126);
 }
-
 #contact .input-wrap.checkbox.nopeee i.ti-control-stop {
   opacity: 1;
   -webkit-transform: rotate(90deg);
@@ -438,7 +420,6 @@ hr {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-
 #contact .input-wrap.checkbox.nopeee i.ti-check-box {
   opacity: 0;
   -webkit-transform: rotate(90deg);
@@ -447,7 +428,6 @@ hr {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-
 #contact h2 {
   margin: 0;
   color: #fff;
@@ -456,23 +436,17 @@ hr {
   z-index: 10;
   position: relative;
 }
-
 #contact h2 span {
   display: inline-block;
 }
-
 #contact h2 span.lets {
   font-weight: 200;
-  font-size: 175px;
+  font-size: 150px;
   margin-top: -1px;
-
 }
-
 #contact h2 span.chat {
-  font-size: 220px;
-
+  font-size: 200px;
 }
-
 #contact p.lead {
   margin: 0;
   color: white;
@@ -485,16 +459,12 @@ hr {
   z-index: 10;
   position: relative;
 }
-
 #contact p.lead a {
   color: #fff;
-
 }
-
 #contact p.lead a:hover {
   color: rgb(162, 255, 176);
 }
-
 #contact .input-wrap.submit input {
   background: #ffda35;
   outline: none !important;
@@ -509,23 +479,18 @@ hr {
   -webkit-transition: all 225ms ease;
   -moz-transition: all 225ms ease;
   transition: all 225ms ease;
-
 }
-
 #contact .input-wrap.submit svg path {
   fill: rgb(206, 136, 255);
 }
-
 #contact .input-wrap.submit input:hover {
   background: rgb(162, 255, 176);
   color: #000;
   cursor: pointer;
 }
-
-#contact .input-wrap.submit input:hover~span svg path {
+#contact .input-wrap.submit input:hover ~ span svg path {
   fill: rgb(162, 255, 176);
 }
-
 .form-overlay {
   position: fixed;
   height: 100%;
@@ -537,47 +502,33 @@ hr {
   -moz-transition: all 600ms ease;
   transition: all 600ms ease;
 }
-
 .show-form-overlay .form-overlay {
   z-index: 9999999999;
   opacity: 0.9;
 }
-
 #contact .input-wrap.has-error input,
 #contact .input-wrap.has-error textarea {
   background: rgb(255, 60, 60);
 }
-
 #contact .input-wrap.has-error svg path {
   fill: rgb(255, 60, 60);
 }
-
 /* ===================================
 =            OUR PROCESS            =
 =================================== */
 #our-process {
   text-align: center;
-
 }
-
-
-
-
-
-
-
 #our-process .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-
 #our-process .contents {
   position: relative;
   height: 400px;
   z-index: 1;
 }
-
 #our-process .contents .wrap {
   position: absolute;
   left: 0;
@@ -591,14 +542,12 @@ hr {
   transform: translateY(-50%);
   z-index: 77777777;
 }
-
 #our-process .step {
   opacity: 1;
 }
-
 #our-process span.icon {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   width: 150px;
   height: 150px;
   line-height: 150px;
@@ -610,23 +559,18 @@ hr {
   position: relative;
   border: solid 3px #fff;
 }
-
 #our-process span.icon.think {
   color: #ff6e6e;
 }
-
 #our-process span.icon.design {
   color: #ffb446;
 }
-
 #our-process span.icon.engineer {
   color: #003267;
 }
-
 #our-process span.icon.execute {
   color: #5200c9;
 }
-
 #our-process span.icon:before {
   display: block;
   content: ' ';
@@ -649,13 +593,11 @@ hr {
   transition: all 250ms ease;
   background: #fff;
 }
-
 #our-process span.icon:hover,
 #our-process span.icon.active {
   color: #fff;
   background: transparent;
 }
-
 #our-process span.icon:hover:before,
 #our-process span.icon.active:before {
   opacity: 0;
@@ -665,7 +607,6 @@ hr {
   -o-transform: translate(-50%, -50%) scale(1.25);
   transform: translate(-50%, -50%) scale(1.25);
 }
-
 #our-process span.icon i {
   position: absolute;
   left: 50%;
@@ -680,13 +621,11 @@ hr {
   -moz-transition: all 600ms ease;
   transition: all 600ms ease;
 }
-
 #our-process h3 {
-  font-size: 40px;
+  font-size: 35px;
   color: #fff;
   letter-spacing: 0.05em;
 }
-
 #our-process h4 {
   position: absolute;
   bottom: 0;
@@ -705,11 +644,9 @@ hr {
   -moz-transition: all 250ms ease;
   transition: all 250ms ease;
 }
-
 #our-process h4.active {
   opacity: 1;
 }
-
 #our-process h4 i {
   font-size: 9px;
   color: rgb(255, 146, 146);
@@ -720,40 +657,31 @@ hr {
   transform: translateY(-14px);
   display: inline-block;
 }
-
 #our-process h4 span {
   margin: 0 5px;
 }
-
 /* media queries */
-
 @media (max-width: 800px) {
-
   .sec2 h1,
   .sec3 h1,
   .sec4 h1 {
     font-size: 35px;
   }
-
   .sec1 h1 {
     font-size: 40px;
   }
-
   .sec2 p,
   .sec3 p,
   .sec4 p {
     font-size: 20px;
   }
-
   nav ul li a {
     line-height: 40px;
     color: white;
     font-size: 13px;
-
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
   }
-
   .color {
     line-height: 40px;
     color: black;
@@ -763,43 +691,35 @@ hr {
     text-decoration: none;
     transition: 0.5s;
   }
-
   .logo {
     width: 400px;
   }
-
   .grey {
     font-size: 15px;
   }
 }
-
 .button {
   text-align: center;
 }
-
 .btn {
   font-family: 'Roboto';
   font-weight: bold;
   color: white;
   border: 1px solid white;
 }
-
 .btn:hover {
   color: black;
   background: white;
   border: 1px solid white;
 }
-
 @media (max-width: 500px) {
   .logo {
     width: 320px;
   }
-
   .remove {
     width: 0px;
     transition: 0.5s;
   }
-
   .sec1 h1 {
     color: white;
     text-align: center;
@@ -810,74 +730,58 @@ hr {
       0px 18px 23px rgba(0, 0, 0, 0.1);
   }
 }
-
-
 @media (max-width: 950px) {
   .container {
     width: 70%;
   }
-
 }
-
 @media (max-width: 680px) {
   .sec2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-
   .container {
     width: 95%;
   }
-
   #our-process {
     display: none;
   }
-
-
   #contact p.lead {
     font-size: 20px !important;
     margin-top: -30px;
     margin-bottom: 25px;
     text-align: center;
   }
-
   #contact h2 {
     text-align: center;
   }
-
   #contact .chat {
     font-size: 150px !important;
     margin-bottom: -50px;
     text-align: center;
   }
-
   #contact .lets {
     font-size: 120px !important;
     margin-bottom: -50px;
     text-align: left !important;
   }
-
   #contact .input-wrap.checkbox label {
     font-size: 24px;
   }
-
   #footer .logo p {
     font-size: 19px;
     margin-top: 7px;
     margin-bottom: 50px;
   }
-
   #blurb {
     padding: 100px 0 150px;
   }
-
   #our-process,
   #our-services,
   #contact {
     padding: 100px 0;
   }
-
   #contact {
     padding-bottom: 200px;
   }
