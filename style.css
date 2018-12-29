@@ -741,6 +741,9 @@ hr {
     flex-direction: column;
     justify-content: center;
   }
+  #Who-We-Are img {
+    width: 150px;
+  }
   .container {
     width: 95%;
   }
