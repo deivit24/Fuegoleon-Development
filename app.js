@@ -2,13 +2,54 @@ $(window).on('scroll', function () {
   if ($(window).scrollTop()) {
     $('nav').addClass('black');
     $('nav ul li a').addClass('color');
-    $('.logo').addClass('remove');
+
   } else {
     $('nav').removeClass('black');
     $('nav ul li a').removeClass('color');
-    $('.logo').removeClass('remove');
+
   }
 });
+
+// logo stuff
+var logo = new ScrollMagic.Controller();
+
+new ScrollMagic.Scene({
+    triggerElement: ".sec1 h1",
+    triggerHook: 0.1
+  })
+
+  .setClassToggle("#fuego", "remove")
+  .addIndicators()
+  .addTo(logo);
+
+new ScrollMagic.Scene({
+    triggerElement: ".sec1 h1",
+    triggerHook: 0.1
+  })
+
+  .setClassToggle("#development", "remove")
+  .addIndicators()
+  .addTo(logo);
+
+new ScrollMagic.Scene({
+    triggerElement: ".sec2",
+    triggerHook: 0.3
+  })
+
+  .setClassToggle(".f-container", "resize")
+  .addIndicators()
+  .addTo(logo);
+
+new ScrollMagic.Scene({
+    triggerElement: ".sec2",
+    triggerHook: 0.5
+  })
+
+  .setClassToggle("#lion-logo", "remove")
+  .addIndicators()
+  .addTo(logo);
+
+
 
 var controller = new ScrollMagic.Controller();
 var tween = TweenMax.from("#animate", 0.5, {
