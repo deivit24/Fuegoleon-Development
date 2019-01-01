@@ -2,10 +2,12 @@ $(window).on('scroll', function () {
   if ($(window).scrollTop()) {
     $('nav').addClass('black');
     $('nav ul li a').addClass('color');
+    $('.f-container h1').addClass('blackk');
 
   } else {
     $('nav').removeClass('black');
     $('nav ul li a').removeClass('color');
+    $('.f-container h1').removeClass('blackk');
 
   }
 });
@@ -14,29 +16,30 @@ $(window).on('scroll', function () {
 var logo = new ScrollMagic.Controller();
 
 new ScrollMagic.Scene({
-    triggerElement: ".sec1 h1",
-    triggerHook: 0.1
+    triggerElement: ".sec2",
+    triggerHook: 0.3
   })
 
-  .setClassToggle("#fuego", "remove")
-
-  .addTo(logo);
-
-new ScrollMagic.Scene({
-    triggerElement: ".sec1 h1",
-    triggerHook: 0.1
-  })
-
-  .setClassToggle("#development", "remove")
+  .setClassToggle(".f-container", "remove")
 
   .addTo(logo);
 
 new ScrollMagic.Scene({
     triggerElement: ".sec2",
-    triggerHook: 0.3
+    triggerHook: 0.35
   })
 
   .setClassToggle(".f-container", "resize")
+
+  .addTo(logo);
+
+
+new ScrollMagic.Scene({
+    triggerElement: ".sec2",
+    triggerHook: 0.4
+  })
+
+  .setClassToggle(".f-container", "removeup")
 
   .addTo(logo);
 
@@ -45,7 +48,7 @@ new ScrollMagic.Scene({
     triggerHook: 0.5
   })
 
-  .setClassToggle("#lion-logo", "remove")
+  .setClassToggle("#lion-logo", "removeup")
 
   .addTo(logo);
 
