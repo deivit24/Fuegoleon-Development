@@ -672,6 +672,27 @@ section.sec1 {
   }
 }
 @media (max-width: 680px) {
+  #lion-logo {
+    width: 75px;
+  }
+  #fuego {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 30px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    text-align: center;
+    color: white;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #development {
+    font-family: 'Wallpoet', cursive;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #ff3535;
+    transition: all 0.5s ease-in-out;
+  }
   .sec2 {
     display: flex;
     flex-direction: column;

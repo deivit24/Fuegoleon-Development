@@ -19,7 +19,7 @@ new ScrollMagic.Scene({
   })
 
   .setClassToggle("#fuego", "remove")
-  .addIndicators()
+
   .addTo(logo);
 
 new ScrollMagic.Scene({
@@ -28,7 +28,7 @@ new ScrollMagic.Scene({
   })
 
   .setClassToggle("#development", "remove")
-  .addIndicators()
+
   .addTo(logo);
 
 new ScrollMagic.Scene({
@@ -37,7 +37,7 @@ new ScrollMagic.Scene({
   })
 
   .setClassToggle(".f-container", "resize")
-  .addIndicators()
+
   .addTo(logo);
 
 new ScrollMagic.Scene({
@@ -46,7 +46,7 @@ new ScrollMagic.Scene({
   })
 
   .setClassToggle("#lion-logo", "remove")
-  .addIndicators()
+
   .addTo(logo);
 
 
