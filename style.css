@@ -1,6 +1,7 @@
 body {
   position: relative;
 }
+
 nav {
   text-align: center;
   background: transparent;
@@ -116,6 +117,7 @@ section.sec1 {
   background: white;
   transition: 1s;
 }
+
 .blackk {
   color: black !important;
 }
@@ -133,10 +135,12 @@ section.sec1 {
 .remove {
   display: none;
 }
+
 .resize {
   height: 10vh;
   transition: all 0.5s ease-in-out;
 }
+
 .removeup {
   transform: translateY(-500px);
   transition: all 0.5s ease-in-out;
@@ -144,9 +148,10 @@ section.sec1 {
 
 /* new logo */
 #lion-logo {
-  width: 100px;
+  width: 500px;
   transition: all 0.5s ease-in-out;
 }
+
 #fuego {
   font-family: 'Major Mono Display', monospace;
   font-size: 100px;
@@ -178,15 +183,19 @@ section.sec1 {
 ::placeholder {
   color: #333;
 }
+
 ::-webkit-input-placeholder {
   color: #333;
 }
+
 ::-moz-placeholder {
   color: #333;
 }
+
 :-ms-input-placeholder {
   color: #333;
 }
+
 #contact {
   background: #333;
   background-image: -webkit-linear-gradient(35deg, #000, #333);
@@ -194,14 +203,17 @@ section.sec1 {
   padding: 200px 0 200px;
   height: 100%;
 }
+
 #contact.success:before {
   opacity: 1;
 }
+
 #contact .contact-form {
   text-align: right;
   position: relative;
   z-index: 1;
 }
+
 #contact canvas {
   position: absolute;
   top: 0;
@@ -209,21 +221,26 @@ section.sec1 {
   opacity: 0.5;
   z-index: 0;
 }
+
 .hide-those-particles #contact canvas {
   display: none !important;
 }
+
 #contact .input-wrap {
   position: relative;
   height: 60px;
   margin-bottom: 10px;
 }
+
 #contact .input-wrap.textarea {
   height: 300px;
 }
+
 #contact .select-wrap {
   position: relative;
   z-index: 999999;
 }
+
 #contact .input-wrap input,
 #contact .input-wrap select {
   -webkit-box-shadow: none !important;
@@ -247,6 +264,7 @@ section.sec1 {
   background: #fff;
   z-index: 9999999;
 }
+
 #contact .input-wrap textarea {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
@@ -273,19 +291,23 @@ section.sec1 {
   resize: none;
   z-index: 9999;
 }
+
 #contact .input-wrap svg {
   position: absolute;
   top: -9px;
   left: 0;
   height: 78px;
 }
+
 #contact .input-wrap.textarea svg {
   height: 410px;
   top: -54px;
 }
+
 #contact .input-wrap.checkbox {
   margin-top: 35px;
 }
+
 #contact .input-wrap.checkbox input {
   width: 35px;
   height: 35px;
@@ -295,12 +317,14 @@ section.sec1 {
   left: auto;
   opacity: 0;
 }
+
 #contact .input-wrap.checkbox svg {
   width: 45px;
   height: 55px;
   left: auto;
   right: 19px;
 }
+
 #contact .input-wrap.checkbox label {
   padding-right: 53px;
   color: #fff;
@@ -318,6 +342,7 @@ section.sec1 {
   -ms-user-select: none;
   user-select: none;
 }
+
 #contact .input-wrap.checkbox i {
   color: rgb(180, 255, 180);
   font-size: 30px;
@@ -336,22 +361,27 @@ section.sec1 {
   -o-transform: rotate(0);
   transform: rotate(0);
 }
+
 #contact .input-wrap.checkbox i.ti-control-stop {
   opacity: 0;
   font-size: 32px;
 }
+
 #contact .input-wrap svg path {
   fill: white;
   -webkit-transition: all 225ms ease;
   -moz-transition: all 225ms ease;
   transition: all 225ms ease;
 }
+
 #contact .input-wrap.checkbox.nopeee svg path {
   fill: #fff;
 }
+
 #contact .input-wrap.checkbox.nopeee i {
   color: rgb(255, 120, 126);
 }
+
 #contact .input-wrap.checkbox.nopeee i.ti-control-stop {
   opacity: 1;
   -webkit-transform: rotate(90deg);
@@ -360,6 +390,7 @@ section.sec1 {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+
 #contact .input-wrap.checkbox.nopeee i.ti-check-box {
   opacity: 0;
   -webkit-transform: rotate(90deg);
@@ -368,6 +399,7 @@ section.sec1 {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+
 #contact h2 {
   margin: 0;
   color: #fff;
@@ -376,17 +408,21 @@ section.sec1 {
   z-index: 10;
   position: relative;
 }
+
 #contact h2 span {
   display: inline-block;
 }
+
 #contact h2 span.lets {
   font-weight: 200;
   font-size: 150px;
   margin-top: -1px;
 }
+
 #contact h2 span.chat {
   font-size: 200px;
 }
+
 #contact p.lead {
   margin: 0;
   color: white;
@@ -399,12 +435,15 @@ section.sec1 {
   z-index: 10;
   position: relative;
 }
+
 #contact p.lead a {
   color: #fff;
 }
+
 #contact p.lead a:hover {
   color: rgb(162, 255, 176);
 }
+
 #contact .input-wrap.submit input {
   background: #ffda35;
   outline: none !important;
@@ -420,17 +459,21 @@ section.sec1 {
   -moz-transition: all 225ms ease;
   transition: all 225ms ease;
 }
+
 #contact .input-wrap.submit svg path {
   fill: rgb(206, 136, 255);
 }
+
 #contact .input-wrap.submit input:hover {
   background: rgb(162, 255, 176);
   color: #000;
   cursor: pointer;
 }
-#contact .input-wrap.submit input:hover ~ span svg path {
+
+#contact .input-wrap.submit input:hover~span svg path {
   fill: rgb(162, 255, 176);
 }
+
 .form-overlay {
   position: fixed;
   height: 100%;
@@ -442,33 +485,40 @@ section.sec1 {
   -moz-transition: all 600ms ease;
   transition: all 600ms ease;
 }
+
 .show-form-overlay .form-overlay {
   z-index: 9999999999;
   opacity: 0.9;
 }
+
 #contact .input-wrap.has-error input,
 #contact .input-wrap.has-error textarea {
   background: rgb(255, 60, 60);
 }
+
 #contact .input-wrap.has-error svg path {
   fill: rgb(255, 60, 60);
 }
+
 /* ===================================
 =            OUR PROCESS            =
 =================================== */
 #our-process {
   text-align: center;
 }
+
 #our-process .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 #our-process .contents {
   position: relative;
   height: 400px;
   z-index: 1;
 }
+
 #our-process .contents .wrap {
   position: absolute;
   left: 0;
@@ -482,9 +532,11 @@ section.sec1 {
   transform: translateY(-50%);
   z-index: 77777777;
 }
+
 #our-process .step {
   opacity: 1;
 }
+
 #our-process span.icon {
   display: block;
   margin: 0 auto 20px auto;
@@ -499,18 +551,23 @@ section.sec1 {
   position: relative;
   border: solid 3px #fff;
 }
+
 #our-process span.icon.think {
   color: #ff6e6e;
 }
+
 #our-process span.icon.design {
   color: #ffb446;
 }
+
 #our-process span.icon.engineer {
   color: #003267;
 }
+
 #our-process span.icon.execute {
   color: #5200c9;
 }
+
 #our-process span.icon:before {
   display: block;
   content: ' ';
@@ -533,11 +590,13 @@ section.sec1 {
   transition: all 250ms ease;
   background: #fff;
 }
+
 #our-process span.icon:hover,
 #our-process span.icon.active {
   color: #fff;
   background: transparent;
 }
+
 #our-process span.icon:hover:before,
 #our-process span.icon.active:before {
   opacity: 0;
@@ -547,6 +606,7 @@ section.sec1 {
   -o-transform: translate(-50%, -50%) scale(1.25);
   transform: translate(-50%, -50%) scale(1.25);
 }
+
 #our-process span.icon i {
   position: absolute;
   left: 50%;
@@ -561,11 +621,13 @@ section.sec1 {
   -moz-transition: all 600ms ease;
   transition: all 600ms ease;
 }
+
 #our-process h3 {
   font-size: 35px;
   color: #fff;
   letter-spacing: 0.05em;
 }
+
 #our-process h4 {
   position: absolute;
   bottom: 0;
@@ -584,9 +646,11 @@ section.sec1 {
   -moz-transition: all 250ms ease;
   transition: all 250ms ease;
 }
+
 #our-process h4.active {
   opacity: 1;
 }
+
 #our-process h4 i {
   font-size: 9px;
   color: rgb(255, 146, 146);
@@ -597,24 +661,30 @@ section.sec1 {
   transform: translateY(-14px);
   display: inline-block;
 }
+
 #our-process h4 span {
   margin: 0 5px;
 }
+
 /* media queries */
 @media (max-width: 800px) {
+
   .sec2 h1,
   .sec3 h1,
   .sec4 h1 {
     font-size: 35px;
   }
+
   .sec1 h1 {
     font-size: 40px;
   }
+
   .sec2 p,
   .sec3 p,
   .sec4 p {
     font-size: 20px;
   }
+
   nav ul li a {
     line-height: 40px;
     color: white;
@@ -622,6 +692,7 @@ section.sec1 {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
   }
+
   .color {
     line-height: 40px;
     color: black;
@@ -631,35 +702,43 @@ section.sec1 {
     text-decoration: none;
     transition: 0.5s;
   }
+
   .logo {
     width: 400px;
   }
+
   .grey {
     font-size: 15px;
   }
 }
+
 .button {
   text-align: center;
 }
+
 .btn {
   font-family: 'Roboto';
   font-weight: bold;
   color: white;
   border: 1px solid white;
 }
+
 .btn:hover {
   color: black;
   background: white;
   border: 1px solid white;
 }
+
 @media (max-width: 500px) {
   .logo {
     width: 320px;
   }
+
   .remove {
     width: 0px;
     transition: 0.5s;
   }
+
   .sec1 h1 {
     color: white;
     text-align: center;
@@ -670,15 +749,18 @@ section.sec1 {
       0px 18px 23px rgba(0, 0, 0, 0.1);
   }
 }
+
 @media (max-width: 950px) {
   .container {
     width: 70%;
   }
 }
+
 @media (max-width: 680px) {
   #lion-logo {
     width: 75px;
   }
+
   #fuego {
     font-family: 'Major Mono Display', monospace;
     font-size: 30px;
@@ -697,55 +779,68 @@ section.sec1 {
     color: #ff3535;
     transition: all 0.5s ease-in-out;
   }
+
   .sec2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   #Who-We-Are img {
     width: 150px;
   }
+
   .container {
     width: 95%;
   }
+
   #our-process {
     display: none;
   }
+
   #contact p.lead {
     font-size: 20px !important;
     margin-top: -30px;
     margin-bottom: 25px;
     text-align: center;
   }
+
   #contact h2 {
     text-align: center;
   }
+
   #contact .chat {
     font-size: 150px !important;
     margin-bottom: -50px;
     text-align: center;
   }
+
   #contact .lets {
     font-size: 120px !important;
     margin-bottom: -50px;
     text-align: left !important;
   }
+
   #contact .input-wrap.checkbox label {
     font-size: 24px;
   }
+
   #footer .logo p {
     font-size: 19px;
     margin-top: 7px;
     margin-bottom: 50px;
   }
+
   #blurb {
     padding: 100px 0 150px;
   }
+
   #our-process,
   #our-services,
   #contact {
     padding: 100px 0;
   }
+
   #contact {
     padding-bottom: 200px;
   }
