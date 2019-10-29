@@ -27,7 +27,6 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
-
 section.sec1 {
   width: 100%;
   height: 100vh;
@@ -474,7 +473,7 @@ section.sec1 {
   cursor: pointer;
 }
 
-#contact .input-wrap.submit input:hover~span svg path {
+#contact .input-wrap.submit input:hover ~ span svg path {
   fill: rgb(162, 255, 176);
 }
 
@@ -672,7 +671,6 @@ section.sec1 {
 
 /* media queries */
 @media (max-width: 800px) {
-
   .sec2 h1,
   .sec3 h1,
   .sec4 h1 {
